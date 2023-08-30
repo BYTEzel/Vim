@@ -12,3 +12,5 @@ set shiftwidth=2
 set expandtab
 "Set buffer settings"
 set hidden "change buffer without asking for saving current one"
+"Start in normal mode"
+set t_u7=
