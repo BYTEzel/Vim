@@ -15,3 +15,8 @@ set hidden "change buffer without asking for saving current one"
 set title
 "Start in normal mode"
 set t_u7=
+"Set search options"
+set hlsearch
+set incsearch
+"Key mappings"
+nnoremap <esc><esc> :noh<return><esc>
