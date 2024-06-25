@@ -4,7 +4,7 @@ au Bufread,BufNewFile *.PAS set filetype=pascal
 "Enable syntax highlighting"
 syntax on
 "Set colors"
-colorscheme industry
+colorscheme default
 "Set tabs"
 set smartindent
 set tabstop=2
@@ -13,6 +13,7 @@ set expandtab
 "Set buffer settings"
 set hidden "change buffer without asking for saving current one"
 set title
+set number
 "Start in normal mode"
 set t_u7=
 "Set search options"
